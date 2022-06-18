@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <title>billing address</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+            <h2>Billing Address</h2>
+            <div class="row">
+                <div class="col"> 
+                        <label>First Name</label><br>
+                        <input type="text" placeholder="First name">
+                </div>
+                <div class="col">
+                        <label>Last Name</label><br>
+                        <input type="text" placeholder="Last name ">
+                </div>
+            </div>
+            <div><br></div>
+            <div><label>Username</label></div>
+            <div class="input-group"  >
+                <span class="input-group-text">@</span>
+                <input type="text" placeholder="Username" class="form-control">
+            </div>
+            <div><br></div>
+            <div >Email<span class="text-muted">(Optional)</span><br><input type="email" placeholder="you@example.com" class="form-control"></div>
+            <div><br></div>
+            <div>Address<br><input type="text" placeholder="1234 Main St" class="form-control"></div>
+            <div><br></div>
+            <div>Address 2 <span class="text-muted">(Optional)</span><br><input type="text" placeholder="Apartment or suite" class="form-control"></div>
+            <div><br></div>      
+            <div class="row">
+                <div class="col">
+                    Country<br>
+                    <select name="Choose..." value="choose.." placeholder="choose" id="students">
+                        <option value="4G3">India</option>
+                        <option value="4G4">Other</option>
+                    </select> <br>
+                </div>
+                <div class="col">
+                    State<br>
+                    <select name="Choose..." value="choose.." id="students">
+                        <option value="4G3">Andhra Pradesh</option>
+                        <option value="4G4">Other</option>
+                    </select>
+                </div>            
+                <div class="col">
+                    Zip<br>
+                    <input type="text">
+                </div>
+            </div>
+            <div><br></div>
+            <hr>
+            <div><input type="checkbox"> Shipping address is the same as my billing address  </div>
+            <div><input type="checkbox">Save this information for next time</div>
+            <div><br></div>
+            <hr>
+            <div>
+                <h2>Payment</h2>
+                <input type="radio" name="rad" id="123">Credit card<br>
+                <input type="radio" name="rad" id="123">Debit card<br>
+                <input type="radio" name="rad" id="123">Paypal<br>
+            </div>
+            <div><br></div>
+            <div class="row">
+                <div class="col">
+                    <label>Name on card</label><br>
+                    <input type="text"><br>
+                    <span class="text-muted">Full name as displayed on card</span>
+                </div>
+                <div class="col">
+                    <label>Credit card number</label><br>
+                    <input type="text"><br>
+                </div>
+            </div>
+            <div><br></div>
+            <div class="row">
+                <div class="col">
+                    <label>Expiration</label><br>
+                    <input type="text"><br>
+                </div>
+                <div class="col">
+                    <label>CVV</label><br>
+                    <input type="text">
+                </div>
+            </div>
+            <div><br></div>
+            <div>
+                <input type="button"  class="btn btn-primary " style="width:500px" value="Continue to checkout"><br>
+
+            </div>
+            <div><br></div>
+            <div><br></div>
+            <div><br></div>
+        </div>
+        <br>
+        <div class="col-4">
+            <h2>Your cart&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="badge text-bg-secondary"><h6>3</h6></span></h2>
+            <ul class="list-group">
+                <li class="list-group-item" >Product name  <span class="text-muted" style="padding-left:175px ;"> $12</span><br><span class="text-muted">Brief Description</span></li> 
+                <li class="list-group-item ">Second product<span class="text-muted" style="padding-left:162px ;"> $8</span><br><span class="text-muted">Brief Description</span></li>
+                <li class="list-group-item ">Third item    <span class="text-muted" style="padding-left:204px ;"> $5</span><br><span class="text-muted">Brief Description</span></li>
+                <li class="list-group-item" style="color:rgb(34, 193, 34) ";>Promo code <label style="padding-left:185px;">-$5</label><br>Brief Description</li> 
+                <li class="list-group-item ">Total         <span class="text-muted" style="padding-left:245px;"> $20</span><br><span class="text-muted">Brief Description</span></li>
+            </ul>
+            <div><br></div>
+            <div class="input-group"  >
+                <input type="text" placeholder="promo code" class="form-control">
+                <input type="button"  class="btn btn-secondary" value="Redeem">
+            </div>
+        </div>
+        </div>
+        </div>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
